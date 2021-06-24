@@ -42,8 +42,8 @@ function dibujarMouse(evento){
 function presionarMouse(evento){
     //click presionado
     estado=1;
-    x=evento.layerX;
-    y=evento.layerY;
+    x1=evento.layerX;
+    y1=evento.layerY;
 
 }
 
@@ -53,8 +53,8 @@ function soltarMouse(evento){
     //click suelto
       estado=0;
 
-    x=evento.layerX;
-    y=evento.layerY;
+    x1=evento.layerX;
+    y1=evento.layerY;
 
 }
 
